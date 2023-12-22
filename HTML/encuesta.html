@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"> 
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+        <script
+            src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous">
+        </script>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <link rel="stylesheet" type="text/css" href="../CSS_general/encuesta.css" title="style" />
+        <title>Encuesta</title>
+    </head>
+
+<!--https://www.w3schools.com/icons/fontawesome5_icons_autumn.asp (enlace para los iconos)-->
+
+    <body>
+        
+        <h1>! NOS GUSTARÍA SABER MÁS DE USTED ¡</h1>
+        <form class="encuesta">
+            <label for="nombre">Nombre:</label>
+            <br></br>
+            <input type="text" id="nombre" name="nombre" required>
+            <br></br>
+            <br></br>
+            <label for="apellidos">Apellidos:</label>
+            <br></br>
+            <input type="text" id="apellidos" name="apellidos" required>
+            <br></br>
+            <br></br>
+            <label for="edad">Edad:</label>
+            <br></br>
+            <input type="number" id="edad" name="edad" required>
+            <br></br>
+            <br></br>
+            <label for="marca-favorita">¿Cuál es tu marca deportiva favorita?</label>
+            <br></br>
+            <select id="marca-favorita" name="marca-favorita">
+                <option value="adidas">Adidas</option>
+                <option value="nike">Nike</option>
+                <option value="puma">Puma</option>
+                <option value="new-balance">New Balance</option>
+            </select>
+            <br></br>
+            <br></br>
+            <label for="deporte-favorito">Deporte Favorito:</label>
+            <br></br>
+            <input type="text" id="deporte-favorito" name="deporte-favorito">
+            <br></br>
+            <br></br>
+            <label for="experiencia-web">Experiencia en la página web:</label>
+            <br></br>
+            <select id="experiencia-web" name="experiencia-web">
+                <option value="excelente">Excelente</option>
+                <option value="buena">Buena</option>
+                <option value="regular">Regular</option>
+                <option value="mala">Mala</option>
+            </select>
+            <br></br>
+            <br></br>
+            <label for="comentarios">Comentarios Adicionales:</label>
+            <label for="comentarios"><h4>¿Debemos mejorar algo?</h4></label>
+            <br></br>
+            <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+            <br></br>
+            <br></br>
+            <label for="comprar">¿Qué sueles comprar en las tiendas deportivas?</label>
+            <br></br>
+            <input type="text" id="comprar" name="comprar" required>
+            <br></br>
+            <br></br>
+            <label for="trabajo">¿Buscas trabajo?</label>
+            <br></br>
+            <p>Actualmente necesitamos cubrir algunos puestos de desarrolladores webm, que hayan tenido al menos 2 años de wexperiencia en este tipo de entornos.</p>
+            <p>En caso de estar interesador/a, contacte con nosotros mediante nuestro correo electrónico "mercedesromeroa37@gmail.com", o nuestro teléfono móvil "+34 658674630".</p>
+            <p>Gracias por mostrarnos su apoyo hacia nuestra comunidad.</p>
+            <br></br>
+            <br></br>
+            <button type="submit">Enviar Encuesta</button>
+        </form>
+        <div class="aparte">
+            <h2><u>Un poco sobre Adidas</u></h2>
+            <p><img src="../imagenes/Marcas/adidas.jpg"/>Adidas es una empresa multinacional alemana especializada en el diseño y fabricación de ropa, calzado y accesorios deportivos. Fundada en 1949 por Adolf Dassler, Adidas es una de las marcas líderes en la industria del deporte y se ha ganado una reputación global por sus productos de alta calidad y su asociación con eventos deportivos de renombre.</p>
+            <a href="https://www.adidas.es/" target="_blank">
+                <button type="button">Adidas</button>
+            </a>
+        </div>
+        <div class="aparte">
+            <h2><u>Un poco sobre Nike</u></h2>
+            <p><img src="../imagenes/Marcas/nike.jpg"/>Nike, Inc. es una de las empresas líderes a nivel mundial en la industria del deporte, la moda y el calzado. Fundada en 1964 bajo el nombre de "Blue Ribbon Sports" por Bill Bowerman y Phil Knight en Oregón, Estados Unidos, la compañía se renombró Nike en 1971. Desde entonces, Nike ha crecido hasta convertirse en una de las marcas más reconocidas y valiosas del mundo.</p>
+            <a href="https://www.nike.com/es/" target="_blank">
+                <button type="button">Nike</button>
+            </a>
+        </div>
+        <div class="aparte">
+            <h2><u>Un poco sobre Puma</u></h2>
+            <p><img src="../imagenes/Marcas/puma.png"/>Puma es una empresa alemana que se destaca en la fabricación de calzado, ropa y accesorios deportivos, así como en la producción de productos de estilo de vida y moda. Fundada en 1948 por Rudolf Dassler, hermano del fundador de Adidas, Adolf Dassler, Puma ha crecido para convertirse en una marca global conocida por su estilo distintivo y su asociación con el mundo del deporte y la moda.</p>
+            <a href="https://eu.puma.com/es/es/home" target="_blank">
+                <button type="button">Puma</button>
+            </a>
+        </div>
+        <div class="aparte">
+            <h2><u>Un poco sobre New Balance</u></h2>
+            <p><img src="../imagenes/Marcas/new-balance.png"/>New Balance es una empresa estadounidense de calzado y ropa deportiva con sede en Boston, Massachusetts. Fundada en 1906 por William J. Riley, la marca se ha destacado por su enfoque en la fabricación de calzado cómodo y de calidad, especialmente conocido por su distintiva "N" en los productos.</p>
+            <a href="https://www.newbalance.es/es" target="_blank">
+                <button type="button">New Balance</button>
+            </a>
+        </div>
+        <div class="bo">
+            <a href="../index.html"><button type="button">Volver al inicio</button></a>
+        </div>
+
+    </body>
+    
+</html>

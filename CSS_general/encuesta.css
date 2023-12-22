@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #EBE3D5;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1{
+    text-align: center;
+    color: #776B5D;
+    font-size: xx-large;
+    font-family: "Comic Sans MS", cursive , sans-serif;
+}
+
+form.encuesta{
+    float: left;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin-top: 50px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    color: #776B5D;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div.aparte{
+    float: right;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin-top: 50px;
+}
+
+div.aparte h2{
+    text-align: center;
+    color: #B0A695;
+}
+
+div.aparte img{
+    float: left;
+    padding-right: 20px;
+}
+
+div.aparte p{
+    float: right;
+    text-align: justify;
+}
+
+div.bo{
+    float: right;
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+    margin-top: 50px;
+}

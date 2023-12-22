@@ -1,0 +1,620 @@
+@charset "UTF-8";
+
+/*HOMBRE*/
+
+.ejem1{
+    width: 100%;
+    height: 200px;
+    background-color: #EBE3D5;
+    border: 2px solid #776B5D;
+}
+
+div.ejem1 img{
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+div.ejem1 h1{
+    font-size: 50px;
+    font-family: "Courier New", monospace;
+    margin-left: 100px;
+}
+
+div.ejem1 p{
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+h1 , h2{
+    color: #776B5D;
+}
+
+ul.ejem3{
+    color: #B0A695;
+}
+
+div.ejem1 p,h1,img{
+    float: left;
+    margin: 30px;
+}
+
+div.ejem1 p{
+    margin-top: 90px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+div.ejem1 h1{
+    margin-top: 80px;
+    margin-right: 10%;
+}
+
+div.ejem1 img{
+    margin-top: 80px;
+    margin-right: 10%;
+}
+
+div.caso1{
+    width: 65%;
+    height: 100%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.box-1{
+    background-color:   #EBE3D5;
+    text-align: justify;
+    width: 400px; 
+    height: 100%;
+    position: relative;
+    border: 2px solid #776B5D;
+    background-image: url(../imagenes/fondo.jpeg);
+    background-repeat: repeat;
+    margin: 20px;
+}
+
+.d11{
+    margin-left: 50px;
+    text-align: justify;
+    margin-top: 50px;
+    border: 2px double;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: rgba(238, 236, 233, 1);
+}
+
+div.caso1 u{
+    color: #776B5D;
+}
+
+div.caso1 li{
+    color: #B0A695;
+}
+
+div.d11 a{
+    text-decoration: none;
+    color: #B0A695;
+}
+
+div.caso1 p{
+    text-align: justify;
+    margin-left: 30px;
+}
+
+div.dentro a{
+    text-decoration: none;
+    color: #B0A695;
+}
+
+div.dentro img{
+    width: 200px;
+    height: 200px;
+}
+
+.adidas, .nike{
+    border: 2px solid #776B5D;
+}
+
+div.adidas img{
+    border: 2px solid #776B5D;
+}
+
+div.nike img{
+    border: 2px solid #776B5D;
+}
+
+div.adidas p{
+    float: right;
+}
+
+div.nike p{
+    float: right;
+    background-color: #eeece9;
+}
+
+div.adidas{
+    background-color: #eeece9;
+}
+
+div.nike{
+    background-color: #eeece9;
+}
+
+div.adidas2 img{
+    border: 2px solid #776B5D;
+    width: 300px;
+    height: 200px;
+}
+
+div.nike2 img{
+    border: 2px solid #776B5D;
+    width: 300px;
+    height: 200px;
+}
+
+div.adidas2 p{
+    float: right;
+}
+
+div.nike2 p{
+    float: right;
+}
+
+div.adidas2{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.nike2{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.adidas3 img{
+    border: 2px solid #776B5D;
+    width: 250px;
+    height: 200px;
+}
+
+div.nike3 img{
+    border: 2px solid #776B5D;
+    width: 250px;
+    height: 200px;
+}
+
+div.adidas3 p{
+    float: right;
+}
+
+div.nike3 p{
+    float: right;
+}
+
+div.adidas3{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.nike3{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+
+/*MUJER*/
+
+div.adidas5 img{
+    border: 2px solid #776B5D;
+    width: 250px;
+    height: 200px;
+}
+
+div.nike5 img{
+    border: 2px solid #776B5D;
+    width: 250px;
+    height: 200px;
+}
+
+div.adidas5 p{
+    float: right;
+}
+
+div.nike5 p{
+    float: right;
+}
+
+div.adidas5{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.nike5{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.adidas6 img{
+    border: 2px solid #776B5D;
+    width: 300px;
+    height: 200px;
+}
+
+div.nike6 img{
+    border: 2px solid #776B5D;
+    width: 300px;
+    height: 200px;
+}
+
+div.adidas6 p{
+    float: right;
+}
+
+div.nike6 p{
+    float: right;
+}
+
+div.adidas6{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.nike6{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.adidas7 img{
+    border: 2px solid #776B5D;
+    width: 250px;
+    height: 200px;
+}
+
+div.nike7 img{
+    border: 2px solid #776B5D;
+    width: 250px;
+    height: 200px;
+}
+
+div.adidas7 p{
+    float: right;
+}
+
+div.nike7 p{
+    float: right;
+}
+
+div.adidas7{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.nike7{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.adidas8 img{
+    border: 2px solid #776B5D;
+    width: 250px;
+    height: 200px;
+}
+
+div.nike8 img{
+    border: 2px solid #776B5D;
+    width: 250px;
+    height: 200px;
+}
+
+div.adidas8 p{
+    float: right;
+}
+
+div.nike8 p{
+    float: right;
+}
+
+div.adidas8{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.nike8{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+
+/*NIÑO*/
+
+div.adidas9 img{
+    border: 2px solid #776B5D;
+    width: 200px;
+    height: 200px;
+}
+
+div.nike9 img{
+    border: 2px solid #776B5D;
+    width: 200px;
+    height: 200px;
+}
+
+div.adidas9 p{
+    float: right;
+}
+
+div.nike9 p{
+    float: right;
+}
+
+div.adidas9{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.nike9{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.adidas10 img{
+    border: 2px solid #776B5D;
+    width: 300px;
+    height: 200px;
+}
+
+div.nike10 img{
+    border: 2px solid #776B5D;
+    width: 300px;
+    height: 200px;
+}
+
+div.adidas10 p{
+    float: right;
+}
+
+div.nike10 p{
+    float: right;
+}
+
+div.adidas10{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.nike10{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.adidas11 img{
+    border: 2px solid #776B5D;
+    width: 200px;
+    height: 200px;
+}
+
+div.nike11 img{
+    border: 2px solid #776B5D;
+    width: 200px;
+    height: 200px;
+}
+
+div.adidas11 p{
+    float: right;
+}
+
+div.nike11 p{
+    float: right;
+}
+
+div.adidas11{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.nike11{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.adidas12 img{
+    border: 2px solid #776B5D;
+    width: 250px;
+    height: 200px;
+}
+
+div.nike12 img{
+    border: 2px solid #776B5D;
+    width: 250px;
+    height: 200px;
+}
+
+div.adidas12 p{
+    float: right;
+}
+
+div.nike12 p{
+    float: right;
+}
+
+div.adidas12{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.nike12{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+
+/*NIÑA*/
+
+div.adidas13 img{
+    border: 2px solid #776B5D;
+    width: 200px;
+    height: 200px;
+}
+
+div.nike13 img{
+    border: 2px solid #776B5D;
+    width: 200px;
+    height: 200px;
+}
+
+div.adidas13 p{
+    float: right;
+}
+
+div.nike13 p{
+    float: right;
+}
+
+div.adidas13{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.nike13{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.adidas14 img{
+    border: 2px solid #776B5D;
+    width: 300px;
+    height: 200px;
+}
+
+div.nike14 img{
+    border: 2px solid #776B5D;
+    width: 300px;
+    height: 200px;
+}
+
+div.adidas14 p{
+    float: right;
+}
+
+div.nike14 p{
+    float: right;
+}
+
+div.adidas14{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.nike14{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.adidas15 img{
+    border: 2px solid #776B5D;
+    width: 200px;
+    height: 200px;
+}
+
+div.nike15 img{
+    border: 2px solid #776B5D;
+    width: 200px;
+    height: 200px;
+}
+
+div.adidas15 p{
+    float: right;
+}
+
+div.nike15 p{
+    float: right;
+}
+
+div.adidas15{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.nike15{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.adidas16 img{
+    border: 2px solid #776B5D;
+    width: 250px;
+    height: 200px;
+}
+
+div.nike16 img{
+    border: 2px solid #776B5D;
+    width: 250px;
+    height: 200px;
+}
+
+div.adidas16 p{
+    float: right;
+}
+
+div.nike16 p{
+    float: right;
+}
+
+div.adidas16{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.nike16{
+    border: 2px solid #776B5D;
+    background-color: #eeece9;
+}
+
+div.bot a{
+    margin: 100px;
+    border: 2px solid #776B5D;
+    padding: 20px;
+    text-decoration: none;
+    color: #B0A695;
+    background-color: #eeece9;
+}
+
+div.bot{
+    float: left;
+    margin: 50px 20px 50px 20px;
+}
+
+div.bot2{
+    float: right;
+    margin: 50px 20px 50px 20px;
+}
+
+div.bot2 a{
+    margin: 100px;
+    border: 2px solid #776B5D;
+    padding: 20px;
+    text-decoration: none;
+    color: #B0A695;
+    background-color: #eeece9;
+}
+
+fieldset{
+    margin-right: 400px;
+    background-color: #fff9ef;
+    text-align: center;
+}
+
+div.divfinal{
+    width: 790px;
+}
+
+legend{
+    text-align: center;
+}

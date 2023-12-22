@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(../imagenes/fondo.jpeg);
+}
+
+div.cen div.fi1{
+    width: 60%;
+    background-color: antiquewhite;
+    margin-left: 50px;
+}
+
+.logo{
+    float: right;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 90px;
+}
+
+div.logo img.img1{
+    border: 2px solid black;
+}
+
+fieldset.fi1{
+    border: 2px solid black;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+div.img2{
+    float: bottom;
+    margin: 50px 100px 50px 50px;
+    border: 2px solid black;
+}
+
+div.div1{
+    float: left;
+    margin: 50px;
+}
+
+div.div2{
+    float: right;
+    margin: 50px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'NombreDeTuFuente', sans-serif;
+    margin: 50px 400px 50px 400px;
+    border: 2px solid black;
+    padding: 50px 20px 50px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+em.em1{
+    border: 2px dashed black; 
+}
+
+.em2{
+    text-decoration: underline;
+}
+
+fieldset.fi2{
+    margin-right: 400px;
+    text-align: center;
+    padding-right: 650px;
+}
+
+legend{
+    text-transform: uppercase;
+}
+
+table{
+    text-align: center;
+}
+
+fieldset.fi1 table{
+    padding-right: 300px;
+    text-align: center;
+}
+
+div.fi2{
+    background-color: antiquewhite;
+    margin-left: 50px;
+    margin-right: 1050px;
+}
+
+div.bo a button{
+    float: right;
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+    margin-top: 50px;
+    color: white;
+    background-color: #4caf50;
+    margin-right: 250px;
+}
